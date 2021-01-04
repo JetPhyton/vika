@@ -1,0 +1,1 @@
+window.addEventListener("keyup",e=>{if(e.target.classList.contains("myInput"))for(var t=document.getElementsByClassName("myInput")[0].value.toUpperCase(),n=document.getElementsByTagName("li"),s=0;s<n.length;s++)a=n[s].getElementsByTagName("a")[0],-1<a.innerHTML.toUpperCase().indexOf(t)?n[s].style.display="":n[s].style.display="none"});

@@ -1,0 +1,1 @@
+e.target.classList.contains("header__burger")&&e.target.classList.toggle("active");

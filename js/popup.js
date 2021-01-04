@@ -1,0 +1,1 @@
+if("popup"==e.target.classList)for(var popUp=document.getElementsByClassName("popup"),popUpContent=document.getElementsByClassName("popup__text"),i=0;i<popUp.length;i++)e.target.classList==popUp[i].classList&&popUpContent[i].classList.toggle("active");

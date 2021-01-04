@@ -1,0 +1,1 @@
+function frame(){100<=width?clearInterval(id):(width++,barLine.style.width=width+"%",document.getElementsByClassName("progressbar-line__label")[0].innerHTML=width+"%")}var barLine,width,id;"progres-line-btn"==e.target.classList&&(barLine=document.getElementsByClassName("progressbar-line__main")[0],width=5,id=setInterval(frame,10));
